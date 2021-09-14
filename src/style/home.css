@@ -1,0 +1,103 @@
+.fullScreen {
+  height: 90vh;
+}
+.bg {
+  background-color: #e6dace;
+}
+.solid {
+  width: 35%;
+  height: 100%;
+}
+.my-bg {
+  width: 65%;
+  height: 100%;
+  background-image: url(../assets/jeddah.jpg);
+  background-size: cover;
+}
+
+.main-content {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  transform: translate(-30%);
+  width: 55%;
+}
+.brdr {
+  height: 2px;
+  width: 3rem;
+  background-color: #0050ff;
+}
+.icons {
+  font-size: 1.7rem;
+  transition: all 0.2s;
+}
+.icons:hover {
+  color: #0050ff;
+  transition: all 0.2s;
+
+  font-size: 2rem;
+}
+.outline:hover {
+  color: white !important;
+}
+h1 {
+  color: black;
+  font-size: 6rem;
+  font-weight: bolder;
+}
+h2,
+h4,
+h5 {
+  font-weight: bold;
+}
+.persSkills {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.persSkills ul {
+  list-style: none;
+}
+
+.persSkills ul li::before {
+  content: "\25FC";
+  color: #0050ff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.width {
+  width: 50%;
+}
+.width2 {
+  width: 60%;
+}
+@media screen and (max-width: 992px) {
+  .main-content {
+    width: 80%;
+  }
+  .width {
+    width: 75%;
+  }
+  .width2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .solid {
+    display: none;
+  }
+  .my-bg {
+    width: 100%;
+  }
+  .main-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+  }
+  .width {
+    width: 100%;
+  }
+}

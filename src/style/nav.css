@@ -1,0 +1,15 @@
+
+.active {
+  color: #007bff !important;
+  font-weight: bold;
+}
+.noscroll {
+  background-color: transparent;
+  transition: all 0.5s;
+  position: relative;
+}
+.scroll {
+  background-color: white;
+  transition: all 0.5s;
+  position: fixed;
+}
